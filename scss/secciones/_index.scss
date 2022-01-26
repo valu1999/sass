@@ -1,0 +1,12 @@
+p{
+    color: red;
+}
+.contenedor{
+    background-color: bisque;
+    .titulo{
+        color: blue;
+    }
+    &:hover{
+        background-color: chartreuse;
+    }
+}
